@@ -1,0 +1,352 @@
+.main_sec1 {
+
+    & h2 {
+        color: maroon;
+        font-size: 4vw;
+        font-weight: 500;
+        text-align: center;
+
+    }
+
+    & img {
+        width: 10vw;
+    }
+
+    & .rotate_img2 {
+        animation: rotate_image1 15s linear infinite;
+        transform-origin: 50% 50%;
+        width: 7vw;
+    }
+}
+
+@keyframes rotate_image1 {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    35% {
+        transform: rotate(-50deg);
+    }
+
+    70% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(-50deg);
+    }
+}
+
+
+.notice_sec1 {
+    padding-bottom: 10vw;
+
+    & h2 {
+        color: rebeccapurple;
+        font-size: 5vw;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 1vw;
+    }
+
+    & p {
+        margin: 0 auto;
+        width: 20%;
+        color: navy;
+        font-size: 1.4vw;
+        font-weight: 300;
+        text-align: center;
+        border-radius: 2vw;
+        padding: 0.5vw;
+
+        border: 2px solid maroon;
+
+        & img {
+            width: 1.4vw;
+            padding-right: 1vw;
+        }
+    }
+}
+
+.notice_sec2 {
+
+    & article {
+        width: 70%;
+        display: flex;
+        gap: 2vw;
+        margin: 0 auto;
+
+
+        & .l_div {
+            flex: 1;
+            border: 2px solid maroon;
+            border-radius: 2vw;
+            padding-left: 3vw;
+            padding-bottom: 2vw;
+
+            & h2 {
+                color: maroon;
+                font-size: 2vw;
+                font-weight: 500;
+                padding: 1vw 0;
+                padding-left: 2vw;
+
+            }
+
+            & a{
+                display: block;
+                  color: #fff;
+                font-size: 1.5vw;
+                font-weight: 400;
+                 width: 60%;
+                background-color: rgba(129, 7, 7, 0.7);
+                text-align: center;
+                border-radius: 2vw;
+                padding: 1vw 0;
+                border: 2px solid maroon;
+
+                &:hover {
+                    background-color: rgba(225, 146, 245, 0.4);
+
+                        color: maroon;
+                    }
+
+            }
+
+            }
+        }
+        
+        
+    }
+
+
+
+.notice_sec3 {
+    width: 70%;
+    margin: 0 auto;
+
+    & h2 {
+        color: rebeccapurple;
+        font-size: 3vw;
+        font-weight: 500;
+
+        padding: 7vw 0 3vw 0;
+
+    }
+
+    & .box8 {
+        width: 100%;
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap;
+
+        & a {
+
+            color: #fff;
+            background-color: rgba(129, 7, 7, 0.7);
+            font-weight: 300;
+            font-size: 2vw;
+            border-radius: 2vw;
+            &:hover{
+                background-color: rgba(225, 146, 245, 0.4);
+                 color: maroon;
+            }
+
+            & div {
+                flex: 1;
+                padding: 2vw 6vw;
+            }
+
+        }
+
+
+
+    }
+
+
+}
+
+
+.notice_sec4{
+
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 15vw;
+
+    & h2 {
+        color: rebeccapurple;
+        font-size: 3vw;
+        font-weight: 500;
+
+        padding: 7vw 0 3vw 0;
+
+    }
+
+
+    & article{
+         width: 100%;
+        display: flex;
+        gap: 2vw;
+
+
+        & .box1{
+            flex: 1;
+            border: 2px solid maroon;
+            padding: 1.2rem;
+            box-sizing: border-box;
+            border-radius: 2vw;
+            
+            & h3{
+                color: maroon;
+                font-size: 1..5rem;
+                font-weight: 500;
+                padding-bottom: 1vw;
+            }
+            & h4{
+                color: rebeccapurple;
+                font-size: 1rem;
+                font-weight: 400;
+                padding-bottom: 0.5vw;
+            }
+
+            & a{
+                color: maroon;
+                 font-size: 1rem;
+                font-weight: 400;
+                padding-bottom: 0.5vw;
+            }
+         
+        }
+
+        & .box2{
+            & .icon{
+                display: flex;
+                gap: 1vw;
+                padding-top: 1.3vw;
+            }
+               & img{
+                width: 2vw;
+            }
+        }
+
+    }
+
+     @media screen and (max-width: 1024px) {
+
+           & article{
+         width: 100%;
+        display: block;
+        gap: 2vw;
+
+         & .box1{
+
+            margin-bottom: 2vw;
+         }
+
+     }
+    }
+}
+
+
+
+ @media screen and (max-width: 1024px) {
+
+.notice_sec2 {
+    
+
+    & article {
+        width: 70%;
+        display: block;
+        gap: 2vw;
+        
+
+        
+        
+
+        & .l_div {
+            flex: 1;
+            border: 2px solid maroon;
+            border-radius: 2vw;
+           
+            padding-bottom: 2vw;
+            margin-bottom: 2vw;
+            & h2 {
+                color: maroon;
+                font-size: 4vw;
+                font-weight: 500;
+                padding: 2vw 0;
+                
+
+            }
+
+            & a{
+                display: block;
+                  color: #fff;
+                font-size:3vw;
+                font-weight: 400;
+                 width: 60%;
+                background-color: rgba(129, 7, 7, 0.7);
+                text-align: center;
+                border-radius: 2vw;
+                padding: 1vw 0;
+                border: 2px solid maroon;
+
+                margin: 0 auto;
+
+            }
+
+            }
+        }
+        
+        
+    }
+
+
+ }
+
+  @media screen and (max-width: 820px) {
+
+    .main_sec1 {
+
+    & h2 {
+        color: maroon;
+        font-size: 6vw;
+        font-weight: 500;
+        text-align: center;
+
+    }
+
+    & img {
+        width: 13vw;
+    }
+}
+
+
+
+ & h2 {
+        color: rebeccapurple;
+        font-size: 8vw;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 1vw;
+    }
+
+    & p {
+        margin: 0 auto;
+        width: 30%;
+        color: navy;
+        font-size: 3vw;
+        font-weight: 300;
+        text-align: center;
+        border-radius: 2vw;
+        padding: 0.5vw;
+
+        border: 2px solid maroon;
+
+        & img {
+            width: 2.5vw;
+            padding-right: 1vw;
+        }
+    }
+
+  }
